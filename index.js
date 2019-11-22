@@ -35,8 +35,8 @@ app.post('/checkout/:id', urlencodedparser,async function(req,res){
       console.log(err);
     }
     const nexmo = new Nexmo({
-      apiKey: '91bc0dae',
-      apiSecret: 'Kz6kKq1EQTNVMxYI',
+      apiKey: '---------',
+      apiSecret: '---------------',
     });
     var t = new Date(visitor.checkin);
     const from = 'SummerGeeks';
@@ -121,8 +121,8 @@ try{  console.log(req.body);
 
 
 const nexmo = new Nexmo({
-  apiKey: '91bc0dae',
-  apiSecret: 'Kz6kKq1EQTNVMxYI',
+  apiKey: '----------',
+  apiSecret: '----------------',
 });
 
 const from = 'SummerGeeks';
