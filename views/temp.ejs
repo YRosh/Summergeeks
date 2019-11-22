@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>SummerGeeks</title>
+    <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("/static/img/bgimg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+  </head>
+  <body class="bg">
+    <center>
+    <div class="jumbotron" style="background:rgba(255,255,255,0.7);margin-top:10%;width:75%;">
+      <p style="color:grey;font-size:75px"><%= msg %></p>
+      <a href="/" class="btn btn-link btn-sm">Go to home</a>
+    </div>
+  </center>
+  </body>
+</html>
